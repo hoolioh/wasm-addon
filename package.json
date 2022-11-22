@@ -1,0 +1,26 @@
+{
+  "name": "wasm-addon",
+  "version": "0.0.1",
+  "description": "wasm module for taint tracking",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/load.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoolioh/wasm-addon.git"
+  },
+  "author": "julio.gonzalez@datadoghq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoolioh/wasm-addon/issues"
+  },
+  "homepage": "https://github.com/hoolioh/wasm-addon#readme",
+  "dependencies": {
+    "node-gyp-build": "^4.5.0"
+  },
+  "devDependencies": {
+    "nan": "^2.17.0",
+    "node-addon-api": "^5.0.0"
+  }
+}
