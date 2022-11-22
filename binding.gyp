@@ -38,7 +38,7 @@
             "dependencies": ["wasm_addon"],
             "copies": [
                 {
-                    "files": [ "<(PRODUCT_DIR)/wasm-addon.node" ],
+                    "files": [ "<(PRODUCT_DIR)/wasm_addon.node" ],
                     "destination": "dist/"
                 }
             ]

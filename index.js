@@ -1,3 +1,3 @@
-const addon = require('./build/Release/wasm_addon')
+const addon = require('./dist/wasm_addon')
 
 module.exports = addon
